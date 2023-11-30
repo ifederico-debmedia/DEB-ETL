@@ -930,7 +930,7 @@
             "description": "",
             "datatype": "string"
           },
-          "x_studio_hubspot_id": {
+          "x_hubspot_id": {
             "name": "Hubspot Company ID",
             "header_name": "hubspot_company_id",
             "description": "",
