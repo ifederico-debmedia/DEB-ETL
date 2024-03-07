@@ -1,0 +1,1916 @@
+{
+  "API": {
+    "Hubspot": {
+      "Contacts": {
+        "Properties": {
+          "hs_object_id": {
+            "name": "Contact ID",
+            "header_name": "contact_id",
+            "description": "",
+            "datatype": "int64"
+          },
+          "firstname": {
+            "name": "First Name",
+            "header_name": "first_name",
+            "description": "",
+            "datatype": "string"
+          },
+          "lastname": {
+            "name": "Last Name",
+            "header_name": "last_name",
+            "description": "",
+            "datatype": "string"
+          },
+          "hs_email_domain": {
+            "name": "Domain",
+            "header_name": "domain",
+            "description": "",
+            "datatype": "string"
+          },
+          "hubspot_owner_id": {
+            "name": "Contact owner",
+            "header_name": "contact_owner",
+            "description": "",
+            "datatype": "string"
+          },
+          "hs_lead_status": {
+            "name": "Lead Status",
+            "header_name": "lead_status",
+            "description": "",
+            "datatype": "string"
+          },
+          "email": {
+            "name": "Email",
+            "header_name": "email",
+            "description": "",
+            "datatype": "string"
+          },
+          "num_associated_deals": {
+            "name": "Associated Deals",
+            "header_name": "associated_deals",
+            "description": "",
+            "datatype": "int64"
+          },
+          "deal_id": {
+            "name": "Deal ID",
+            "header_name": "deal_id",
+            "description": "",
+            "datatype": "int64"
+          },
+          "prospecto_de_inbound": {
+            "name": "Procedencia de Lead",
+            "header_name": "procedencia_de_lead",
+            "description": "",
+            "datatype": "string"
+          },
+          "country": {
+            "name": "Country Region",
+            "header_name": "country_region",
+            "description": "",
+            "datatype": "string"
+          },
+          "n_mero_de_sucursales": {
+            "name": "Numero de Sucursales",
+            "header_name": "numero_de_sucursales",
+            "description": "",
+            "datatype": "string"
+          },
+          "hs_predictivescoringtier": {
+            "name": "Contact priority",
+            "header_name": "contact_priority",
+            "description": "",
+            "datatype": "string"
+          },
+          "hs_analytics_source": {
+            "name": "Original Source",
+            "header_name": "original_source",
+            "description": "",
+            "datatype": "string"
+          },
+          "hs_analytics_source_data_1": {
+            "name": "Original Source Drill Down 1",
+            "header_name": "original_source_drill_down_1",
+            "description": "",
+            "datatype": "string"
+          },
+          "hs_analytics_source_data_2": {
+            "name": "Original Source Drill Down 2",
+            "header_name": "original_source_drill_down_2",
+            "description": "",
+            "datatype": "string"
+          },
+          "associated_company_proxy": {
+            "name": "Associated Company",
+            "header_name": "associated_company",
+            "description": "",
+            "datatype": "string"
+          },
+          "prospectador": {
+            "name": "Prospectador",
+            "header_name": "prospectador",
+            "description": "",
+            "datatype": "string"
+          },
+          "industry": {
+            "name": "Industry",
+            "header_name": "industry",
+            "description": "",
+            "datatype": "string"
+          },
+          "been_in_sequence": {
+            "name": "Been in Sequence Proxy",
+            "header_name": "been_in_sequence_proxy",
+            "description": "",
+            "datatype": "bool"
+          },
+          "hs_email_hard_bounce_reason_enum": {
+            "name": "Email hard bounce reason",
+            "header_name": "email_hard_bounce_reason",
+            "description": "",
+            "datatype": "string"
+          },
+          "first_outbound_sequence": {
+            "name": "First Outbound Sequence",
+            "header_name": "first_outbound_sequence",
+            "date": "True",
+            "description": "",
+            "datatype": "datetime64"
+          },
+          "motivo_de_prospeccion": {
+            "name": "Motivo de Prospeccion",
+            "header_name": "motivo_de_prospeccion",
+            "description": "",
+            "datatype": "string"
+          },
+          "hubspot_owner_assigneddate": {
+            "name": "Owner Assigned Date",
+            "header_name": "owner_assigned_date",
+            "date": "True",
+            "description": "",
+            "datatype": "datetime64"
+          },
+          "hs_sales_email_last_opened": {
+            "name": "Recent sales email open date",
+            "header_name": "recent_sales_email_open_date",
+            "date": "True",
+            "description": "",
+            "datatype": "datetime64"
+          },
+          "hs_sales_email_last_replied": {
+            "name": "Recent sales email replied date",
+            "header_name": "recent_sales_email_replied_date",
+            "date": "True",
+            "description": "",
+            "datatype": "datetime64"
+          },
+          "first_deal_created_date": {
+            "name": "First Deal Created Date",
+            "header_name": "first_deal_created_date",
+            "date": "True",
+            "description": "",
+            "datatype": "datetime64"
+          },
+          "createdate": {
+            "name": "Create Date",
+            "header_name": "create_date",
+            "description": "",
+            "datatype": "datetime64"
+          },
+          "fecha_de_solicitud_de_prospeccion": {
+            "name": "Fecha de solicitud de prospeccion",
+            "header_name": "fecha_de_solicitud_de_prospeccion",
+            "date": "True",
+            "description": "",
+            "datatype": "datetime64"
+          },
+          "canal_de_entrada": {
+            "name": "Canal de Entrada",
+            "header_name": "canal_de_entrada",
+            "description": "",
+            "datatype": "string"
+          },
+          "blog_subscription_date": {
+            "name": "Blog Subscription Date",
+            "header_name": "blog_subscription_date",
+            "description": "",
+            "datatype": "datetime64"
+          },
+          "hs_analytics_first_url": {
+            "name": "First Page Seen",
+            "header_name": "first_page_seen",
+            "description": "",
+            "datatype": "string"
+          },
+          "hs_analytics_first_referrer": {
+            "name": "First Referring Site",
+            "header_name": "first_referring_site",
+            "description": "",
+            "datatype": "string"
+          },
+          "outbound_sequence_name": {
+            "name": "Outbound Sequence Name",
+            "header_name": "outbound_sequence_name",
+            "description": "",
+            "datatype": "string"
+          },
+          "lastmodifieddate": {
+            "name": "Last Modified Date",
+            "header_name": "last_modified_date",
+            "description": "",
+            "datatype": "datetime64"
+          },
+          "respuesta_secuencias": {
+            "name": "Outbound Respuesta Secuencias",
+            "header_name": "outbound_respuesta_secuencias",
+            "description": "",
+            "datatype": "string"
+          },
+          "key_admin": {
+            "name": "Key Admin",
+            "header_name": "key_admin",
+            "description": "",
+            "datatype": "string"
+          },
+          "jobtitle": {
+            "name": "Job Title",
+            "header_name": "job_title",
+            "description": "",
+            "datatype": "string"
+          },
+          "sub_industria": {
+            "name": "Sub Industria",
+            "header_name": "sub_industria",
+            "description": "",
+            "datatype": "string"
+          },
+          "completo_form": {
+            "name": "Nurturing Forms Mails",
+            "header_name": "nurturing_forms_mails",
+            "description": "",
+            "datatype": "string"
+          },
+          "campaign_source_utm": {
+            "name": "Campaign Source UTM",
+            "header_name": "campaign_source_utm",
+            "description": "",
+            "datatype": "string"
+          },
+          "lleno_form_ebook_videollamadas": {
+            "name": "lleno form ebook videollamadas",
+            "header_name": "lleno_form_ebook_videollamadas",
+            "description": "",
+            "datatype": "datetime64"
+          },
+          "lleno_form_ebook_transformacion_digital": {
+            "name": "lleno form ebook transformacion digital",
+            "header_name": "lleno_form_ebook_transformacion_digital",
+            "description": "",
+            "datatype": "datetime64"
+          },
+          "lleno_form_ebook_salud": {
+            "name": "lleno form ebook salud",
+            "header_name": "lleno_form_ebook_salud",
+            "description": "",
+            "datatype": "datetime64"
+          },
+          "company": {
+            "name": "Nombre de la empresa",
+            "header_name": "nombre_de_la_empresa",
+            "description": "",
+            "datatype": "string"
+          },
+          "engagements_last_meeting_booked": {
+            "name": "Fecha ultima reunion agendada",
+            "header_name": "fecha_ultima_reunion_agendada",
+            "description": "",
+            "datatype": "datetime64"
+          },
+          "message": {
+            "name": "Mensaje",
+            "header_name": "message",
+            "description": "",
+            "datatype": "string"
+          },
+          "encuesta_atencion": {
+            "name": "encuesta atencion",
+            "header_name": "encuesta_atencion",
+            "description": "",
+            "datatype": "string"
+            },
+          "encuesta_comentarios": {
+            "name": "encuesta comentarios",
+            "header_name": "encuesta_comentarios",
+            "description": "",
+            "datatype": "string"
+            },
+          "encuesta_puntaje_satisfaccion": {
+            "name": "encuesta puntaje satisfaccion",
+            "header_name": "encuesta_puntaje_satisfaccion",
+            "description": "",
+            "datatype": "int64"
+            }
+        },
+        "Values": {
+          "ORGANIC_SEARCH": "Organic search",
+          "PAID_SEARCH": "Paid search",
+          "EMAIL_MARKETING": "Email marketing",
+          "SOCIAL_MEDIA": "Social media",
+          "REFERRALS": "Referrals",
+          "OTHER_CAMPAIGNS": "Other campaigns",
+          "DIRECT_TRAFFIC": "Direct traffic",
+          "OFFLINE": "Offline sources",
+          "PAID_SOCIAL": "Paid social",
+          "tier_1": "Very High",
+          "tier_2": "High",
+          "tier_3": "Medium",
+          "tier_4": "Low",
+          "closed_won": "Closed won",
+          "Referido x Canal": "Referido Canal",
+          "Referido x Comercial": "Referido Comercial",
+          "Automotrices": "Automotriz",
+          "Banca y finanzas": "Banca y Finanzas"
+        }
+      },
+      "Companies": {
+        "Properties": {
+          "hs_object_id": {
+            "name": "Company ID",
+            "header_name": "company_id",
+            "description": "",
+            "datatype": "int64"
+          },
+          "name": {
+            "name": "Name",
+            "header_name": "name",
+            "description": "",
+            "datatype": "string"
+          },
+          "hubspot_owner_id": {
+            "name": "Company owner",
+            "header_name": "company_owner",
+            "description": "",
+            "datatype": "string"
+          },
+          "industry": {
+            "name": "Industry",
+            "header_name": "industry",
+            "description": "",
+            "datatype": "string"
+          },
+          "country": {
+            "name": "Country Region",
+            "header_name": "country_region",
+            "description": "",
+            "datatype": "string"
+          },
+          "deal_potential_size": {
+            "name": "Size",
+            "header_name": "size",
+            "description": "",
+            "datatype": "int64"
+          },
+          "cliente": {
+            "name": "Relacion",
+            "header_name": "relacion",
+            "description": "",
+            "datatype": "string"
+          },
+          "deal_id": {
+            "name": "Deal ID",
+            "header_name": "deal_id",
+            "description": "",
+            "datatype": "int64"
+          },
+          "createdate": {
+            "name": "Fecha de creacion",
+            "header_name": "fecha_de_creacion",
+            "date": "True",
+            "description": "",
+            "datatype": "datetime64"
+          },
+          "num_associated_deals": {
+            "name": "Negocios asociados",
+            "header_name": "negocios_asociados",
+            "description": "",
+            "datatype": "int64"
+          },
+          "productos_adquiridos": {
+            "name": "Productos asociados",
+            "header_name": "productos_asociados",
+            "description": "",
+            "datatype": "string"
+          },
+          "fecha_de_cambio_propiedad_relacion": {
+            "name": "Fecha Cambio Propiedad Relacion",
+            "header_name": "fecha_cambio_propiedad_relacion",
+            "date": "True",
+            "description": "",
+            "datatype": "datetime64"
+          },
+          "num_associated_contacts": {
+            "name": "Contactos asociados",
+            "header_name": "contactos_asociados",
+            "description": "",
+            "datatype": "int64"
+          },
+          "mercado_vertical": {
+            "name": "Industry Type",
+            "header_name": "industry_type",
+            "description": "",
+            "datatype": "string"
+          },
+          "domain": {
+            "name": "Company Domain Name",
+            "header_name": "company_domain_name",
+            "description": "",
+            "datatype": "string"
+          },
+          "industry_drill_down_1": {
+            "name": "Industry Drill Down 1",
+            "header_name": "industry_drill_down_1",
+            "description": "",
+            "datatype": "string"
+          },
+          "hs_is_target_account": {
+            "name": "Target Account",
+            "header_name": "target_account",
+            "description": "",
+            "datatype": "string"
+          },
+          "hs_lastmodifieddate": {
+            "name": "Last Modified Date",
+            "header_name": "last_modified_date",
+            "description": "",
+            "datatype": "datetime64"
+          },
+          "vertical": {
+            "name": "Vertical",
+            "header_name": "vertical",
+            "description": "",
+            "datatype": "string"
+          }
+        },
+        "Values": {
+          "Tier 3 (1-6 suc / avg 5k)": 5000.0,
+          "Tier 2 (7-25 suc / avg 18k)": 18000.0,
+          "Tier 1 (60 plus / avg 60k)": 60000.0
+        }
+      },
+      "Deals": {
+        "Properties": {
+          "hs_object_id": {
+            "name": "Deal ID",
+            "header_name": "deal_id",
+            "description": "",
+            "datatype": "int64"
+          },
+          "dealname": {
+            "name": "Deal Name",
+            "header_name": "deal_name",
+            "description": "",
+            "datatype": "string"
+          },
+          "closedate": {
+            "name": "Close Date",
+            "header_name": "close_date",
+            "date": "True",
+            "description": "",
+            "datatype": "datetime64"
+          },
+          "canal_de_representaci_n": {
+            "name": "Canal de Representacion",
+            "header_name": "canal_de_representacion",
+            "description": "",
+            "datatype": "string"
+          },
+          "amount": {
+            "name": "Amount",
+            "header_name": "amount",
+            "description": "",
+            "datatype": "int64"
+          },
+          "dealstage": {
+            "name": "Deal Stage",
+            "header_name": "deal_stage",
+            "description": "",
+            "datatype": "string"
+          },
+          "hubspot_owner_id": {
+            "name": "Deal owner",
+            "header_name": "deal_owner",
+            "description": "",
+            "datatype": "string"
+          },
+          "pa_s": {
+            "name": "Country Region",
+            "header_name": "country_region",
+            "description": "",
+            "datatype": "string"
+          },
+          "createdate": {
+            "name": "Create Date",
+            "header_name": "create_date",
+            "date": "True",
+            "description": "",
+            "datatype": "datetime64"
+          },
+          "associated_company_proxy": {
+            "name": "Associated Company",
+            "header_name": "associated_company",
+            "description": "",
+            "datatype": "string"
+          },
+          "associated_contact_proxy": {
+            "name": "Associated Contact",
+            "header_name": "associated_contact",
+            "description": "",
+            "datatype": "string"
+          },
+          "pipeline": {
+            "name": "Pipeline",
+            "header_name": "pipeline",
+            "description": "",
+            "datatype": "string"
+          },
+          "procedencia": {
+            "name": "Procedencia de Lead",
+            "header_name": "procedencia_de_lead",
+            "description": "",
+            "datatype": "string"
+          },
+          "hubspot_owner_assigneddate": {
+            "name": "Deal Owner Assigned Date",
+            "header_name": "deal_owner_assigned_date",
+            "description": "",
+            "datatype": "datetime64"
+          },
+          "hs_lastmodifieddate": {
+            "name": "Last Modified Date",
+            "header_name": "last_modified_date",
+            "description": "",
+            "datatype": "datetime64"
+          },
+          "asignacion_a_preventa": {
+            "name": "Asignación a Preventa",
+            "header_name": "asignacion_a_preventa",
+            "description": "",
+            "datatype": "string"
+          }
+        },
+        "Values": {
+          "7742d15e-56ae-4415-9c86-567ad766837a": "Ventas",
+          "820bd061-2228-4455-a379-4bf409d4554a": "Canales",
+          "5101741": "Identificacion",
+          "d85ad2ee-ad84-48f3-a4e6-3c2752733963": "Primer Contacto 10%",
+          "750846": "Demo Realizada 15%",
+          "eb078c2a-ae3e-411a-9ce6-b8e5ca06dcd5": "Presupuesto Enviado 20%",
+          "d5608044-cac5-4e0c-9838-755be8adf652": "Piloto en Funcionamiento 50%",
+          "afcc2b30-8757-4d7e-923d-053d7db0205c": "OC en Proceso 90%",
+          "3d0d99a8-5791-421b-a1e5-6234c0844b65": "Deal Won",
+          "03a76306-0231-417d-9223-5bd0b12f63d5": "Deal Lost",
+          "7356165": "Oportunidad de Baja",
+          "1005088": "Potencial Reseller",
+          "1209140": "Pedido de datos para NDA",
+          "2ad1f599-a06f-4456-bea4-e28739d0c6fb": "Hand-off a Preventa",
+          "17487102": "Onboarding",
+          "1147473": "Primera Capacitación Comercial",
+          "1147474": "Segunda Capacitación Comercial",
+          "2014582": "Exposición Comercial y Resolución de examen",
+          "17487103": "Hand-off a Operaciones",
+          "32753101-a1a6-4c44-a789-82576c7b1505": "Canal Capturado / Contrato Firmado",
+          "2491428": "Canales en Pausa",
+          "ff4aae15-0c00-4fa8-a677-39b35df7924f": "No hay int64erés/No califica",
+          "Ourbound": "Outbound"
+        }
+      },
+      "Quotes": {
+        "Properties": {
+          "hs_createdate": {
+            "name": "Create Date",
+            "header_name": "create_date",
+            "description": "",
+            "datatype": "datetime64"
+          },
+          "hs_expiration_date": {
+            "name": "Expiration Date",
+            "header_name": "expiration_date",
+            "description": "",
+            "datatype": "datetime64"
+          },
+          "hs_lastmodifieddate": {
+            "name": "Last Modified Date",
+            "header_name": "last_modified_date",
+            "description": "",
+            "datatype": "datetime64"
+          },
+          "hs_object_id": {
+            "name": "Quote ID",
+            "header_name": "quote_id",
+            "description": "",
+            "datatype": "int64"
+          },
+          "hs_status": {
+            "name": "Quote Status",
+            "header_name": "status",
+            "description": "",
+            "datatype": "string"
+          },
+          "hs_title": {
+            "name": "Quote Name",
+            "header_name": "quote_name",
+            "description": "",
+            "datatype": "string"
+          }
+        },
+        "Values": {
+          
+        }
+      },
+    "Line Items": {
+      "Properties": {
+        "createdate": {
+          "name": "Create Date",
+          "header_name": "create_date",
+          "description": "",
+          "datatype": "datetime64"
+        },
+        "amount": {
+          "name": "Amount",
+          "header_name": "amount",
+          "description": "",
+          "datatype": "float64"
+        },
+        "hs_lastmodifieddate": {
+          "name": "Last Modified Date",
+          "header_name": "last_modified_date",
+          "description": "",
+          "datatype": "datetime64"
+        },
+        "hs_object_id": {
+          "name": "Line Item ID",
+          "header_name": "line_item_id",
+          "description": "",
+          "datatype": "int64"
+        },
+        "hs_product_id": {
+          "name": "Product ID",
+          "header_name": "product_id",
+          "description": "",
+          "datatype": "int64"
+        },
+        "quantity": {
+          "name": "Cantidad",
+          "header_name": "quantity",
+          "description": "",
+          "datatype": "int64"
+        },
+        "discount": {
+          "name": "Descuento",
+          "header_name": "discount",
+          "description": "",
+          "datatype": "int64"
+        }
+      },
+      "Values": {
+
+      }
+    },
+    "Products": {
+      "Properties": {
+        "createdate": {
+          "name": "Create Date",
+          "header_name": "create_date",
+          "description": "",
+          "datatype": "datetime64"
+        },
+        "hs_object_id": {
+          "name": "Product ID",
+          "header_name": "product_id",
+          "description": "",
+          "datatype": "int64"
+        },
+        "name": {
+          "name": "Product Name",
+          "header_name": "product_name",
+          "description": "",
+          "datatype": "string"
+        },
+        "hs_sku": {
+          "name": "SKU",
+          "header_name": "sku",
+          "description": "",
+          "datatype": "string"
+        },
+        "description": {
+          "name": "Product Description",
+          "header_name": "product_description",
+          "description": "",
+          "datatype": "string"
+        },
+        "hs_product_type": {
+          "name": "Product Type",
+          "header_name": "product_type",
+          "description": "",
+          "datatype": "string"
+        },
+        "hs_folder_name": {
+          "name": "Folder",
+          "header_name": "folder_name",
+          "description": "",
+          "datatype": "string"
+        },
+        "hs_lastmodifieddate": {
+          "name": "Last Modified Date",
+          "header_name": "last_modified_date",
+          "description": "",
+          "datatype": "datetime64"
+        },
+        "hs_price_usd": {
+          "name": "Product Price",
+          "header_name": "product_price_usd",
+          "description": "",
+          "datatype": "float64"
+        }
+      },
+      "Values": {
+
+      }
+    },
+      "General Values": {
+        "7288359.0": "Juan Martin Balan",
+        "7332199.0": "Nicolas Demner",
+        "9194130.0": "Joaquin Zoilo",
+        "9430040.0": "Gustavo Lauria",
+        "30126325.0": "Ventas Debmedia",
+        "32163085.0": "Ivan Cordova",
+        "34087361.0": "Matias Rubinsztain",
+        "34868053.0": "Matias Restahinoch",
+        "35446936.0": "Sandra Velandia",
+        "38062801.0": "Agustin Gelman",
+        "38276053.0": "Agustina Arroyo",
+        "38627077.0": "Tomas Noya",
+        "38652714.0": "Nicolas Unyicio",
+        "45020739.0": "Pablo Pascuua",
+        "45407055.0": "Cate Paglilla",
+        "52471654.0": "Jose Flores",
+        "55049136.0": "Matias Pumo",
+        "55049145.0": "Mariana Ricci",
+        "55049155.0": "Camilo Varacalli",
+        "56630584.0": "Nicolas Menzaghi",
+        "57989064.0": "Ivan Cuesta",
+        "24586352.0": "Mateo Llobet (Deactivated User)",
+        "8231273.0": "Juan Martin Bergamali (Deactivated User)",
+        "7857377.0": "Martin Fernandez Canto (Deactivated User)",
+        "13581150.0": "Facundo Marino (Deactivated User)",
+        "14224485.0": "Jonathan Raices (Deactivated User)",
+        "29208052.0": "Javier Tamara (Deactivated User)",
+        "7395344.0": "Gustavo Lauria (Deactivated User)",
+        "9928614.0": "Jaime San Martin (Deactivated User)",
+        "31817853.0": "Gustavo Malamud (Deactivated User)",
+        "199515988.0": "Catalina Prado",
+        "84426524.0": "Hassub Vargas",
+        "88661803.0": "Joaquin Restahinoch",
+        "104603232.0": "Salvador Cabrera",
+        "7288359": "Juan Martin Balan",
+        "7332199": "Nicolas Demner",
+        "9194130": "Joaquin Zoilo",
+        "9430040": "Gustavo Lauria",
+        "30126325": "Ventas Debmedia",
+        "32163085": "Ivan Cordova",
+        "34087361": "Matias Rubinsztain",
+        "34868053": "Matias Restahinoch",
+        "35446936": "Sandra Velandia",
+        "38062801": "Agustin Gelman",
+        "38276053": "Agustina Arroyo",
+        "38627077": "Tomas Noya",
+        "38652714": "Nicolas Unyicio",
+        "45020739": "Pablo Pascuua",
+        "45407055": "Cate Paglilla",
+        "52471654": "Jose Flores",
+        "55049136": "Matias Pumo",
+        "55049145": "Mariana Ricci",
+        "55049155": "Camilo Varacalli",
+        "56630584": "Nicolas Menzaghi",
+        "57989064": "Ivan Cuesta",
+        "24586352": "Mateo Llobet (Deactivated User)",
+        "8231273": "Juan Martin Bergamali (Deactivated User)",
+        "7857377": "Martin Fernandez Canto (Deactivated User)",
+        "13581150": "Facundo Marino (Deactivated User)",
+        "14224485": "Jonathan Raices (Deactivated User)",
+        "29208052": "Javier Tamara (Deactivated User)",
+        "7395344": "Gustavo Lauria (Deactivated User)",
+        "9928614": "Jaime San Martin (Deactivated User)",
+        "31817853": "Gustavo Malamud (Deactivated User)",
+        "199515988": "Catalina Prado",
+        "84426524": "Hassub Vargas",
+        "88661803": "Joaquin Restahinoch",
+        "104603232": "Salvador Cabrera"
+      }
+    },
+    "Odoo": {
+      "Subscriptions": {
+        "Properties": {
+          "id": {
+            "name": "id",
+            "header_name": "id",
+            "description": "",
+            "datatype": "int64"
+          },
+          "name": {
+            "name": "Referencia del pedido",
+            "header_name": "sub",
+            "description": "",
+            "datatype": "string"
+          },
+          "partner_id": {
+            "name": "Cliente",
+            "header_name": "cliente_partner",
+            "description": "",
+            "datatype": "string"
+          },
+          "date_order": {
+            "name": "Fecha de Creación",
+            "header_name": "fecha_de_creacion",
+            "date": "True",
+            "description": "",
+            "datatype": "datetime64"
+          },
+          "recurring_total": {
+            "name": "Recurrente Total",
+            "header_name": "recurrente_total",
+            "description": "",
+            "datatype": "float64"
+          },
+          "stage_id": {
+            "name": "Etapa",
+            "header_name": "etapa",
+            "description": "",
+            "datatype": "string"
+          },
+          "user_id": {
+            "name": "Comercial",
+            "header_name": "comercial",
+            "description": "",
+            "datatype": "string"
+          },
+          "country_id": {
+            "name": "Pais",
+            "header_name": "pais",
+            "description": "",
+            "datatype": "string"
+          }
+        },
+        "Values": {
+          "False": "",
+          "In Progress": "Suscripcion Activa",
+          "A renovar": "Suscripcion de Baja",
+          "Closed": "Suscripcion Vencida",
+          "Borrador": "Suscripción de Inicializacion",
+          "yearly": "Anual",
+          "monthly": "Mensual",
+          "UF": "clf"
+        }
+      },
+      "Projects": {
+        "Properties": {
+          "id": {
+            "name": "ID Externo",
+            "header_name": "id_externo",
+            "description": "",
+            "datatype": "int64"
+          },
+          
+          "partner_id": {
+            "name": "Nombre de Cliente",
+            "header_name": "nombre_de_cliente",
+            "description": "",
+            "datatype": "string"
+          },
+          "x_studio_cliente_final": {
+            "name": "Cliente final",
+            "header_name": "cliente_final",
+            "description": "",
+            "datatype": "string"
+          },
+          "x_studio_mail_de_focal_point": {
+            "name": "Mail de focal point",
+            "header_name": "mail_de_focal_point",
+            "description": "",
+            "datatype": "string"
+          },
+          "x_studio_pas": {
+            "name": "Pais",
+            "header_name": "pais",
+            "description": "",
+            "datatype": "string"
+          },
+          "x_studio_etapa": {
+            "name": "Etapa del proyecto",
+            "header_name": "estado_del_proyecto",
+            "description": "",
+            "datatype": "string"
+          },
+          "x_studio_piloto": {
+            "name": "Es piloto",
+            "header_name": "Es piloto",
+            "description": "",
+            "datatype": "bool"
+          },
+          "x_studio_comercial": {
+            "name": "Responsable comercial",
+            "header_name": "responsable_comercial",
+            "description": "",
+            "datatype": "string"
+          },
+          "user_id": {
+            "name": "Responsable del proyecto",
+            "header_name": "responsable_del_proyecto",
+            "description": "",
+            "datatype": "string"
+          },
+          "x_studio_complejidad": {
+            "name": "Complejidad del proyecto",
+            "header_name": "complejidad_del_proyecto",
+            "description": "",
+            "datatype": "string"
+          },
+          "create_date": {
+            "name": "Create Date",
+            "header_name": "create_date",
+            "date": "True",
+            "description": "",
+            "datatype": "datetime64"
+          },
+          "x_studio_cambio_a_relevamiento_inicial": {
+            "name": "Fecha Status Relevamiento Inicial Cliente",
+            "header_name": "fecha_status_relevamiento_inicial_cliente",
+            "date": "True",
+            "description": "",
+            "datatype": "datetime64"
+          },
+          "x_studio_cambio_a_configuracindesarrollofabricacin_de_equipos": {
+            "name": "Fecha Status Configuracion o Desarrollo o Fabricacion Equipos",
+            "header_name": "fecha_status_configuracion_o_desarrollo_o_fabricacion_equipos",
+            "date": "True",
+            "description": "",
+            "datatype": "datetime64"
+          },
+          "x_studio_cambio_a_despliegue_y_soporte_en_puesta_en_marcha": {
+            "name": "Fecha Status Despliegue y Soporte Puesta en Marcha",
+            "header_name": "fecha_status_despliegue_y_soporte_puesta_en_marcha",
+            "date": "True",
+            "description": "",
+            "datatype": "datetime64"
+          },
+          "x_studio_fecha_de_finalizacin": {
+            "name": "Fecha de finalizacion",
+            "header_name": "fecha_de_finalizacion",
+            "date": "True",
+            "description": "",
+            "datatype": "datetime64"
+          },
+          "x_studio_das_detenido": {
+            "name": "Dias detenido",
+            "header_name": "dias_detenido",
+            "description": "",
+            "datatype": "int64"
+          }
+        },
+        "Values": {
+          "False": ""
+        }
+      },
+      "Sales Lines": {
+        "Properties": {
+          "id": {
+            "name": "ID Externo",
+            "header_name": "id_externo",
+            "description": "",
+            "datatype": "int64"
+          },
+          "order_id": {
+            "name": "Referencia del pedido",
+            "header_name": "referencia_del_pedido",
+            "description": "",
+            "datatype": "string"
+          },
+          "order_partner_id": {
+            "name": "Cliente",
+            "header_name": "cliente",
+            "description": "",
+            "datatype": "string"
+          },
+          "product_id": {
+            "name": "Producto",
+            "header_name": "producto",
+            "description": "",
+            "datatype": "string"
+          },
+          "product_uom_qty": {
+            "name": "Cantidad pedida",
+            "header_name": "cantidad_pedida",
+            "description": "",
+            "datatype": "int64"
+          },
+          "qty_delivered": {
+            "name": "Cantidad entregada",
+            "header_name": "cantidad_entregada",
+            "description": "",
+            "datatype": "int64"
+          },
+          "qty_invoiced": {
+            "name": "Cantidad Facturada",
+            "header_name": "cantidad_facturada",
+            "description": "",
+            "datatype": "int64"
+          },
+          "price_unit": {
+            "name": "Precio Unitario",
+            "header_name": "precio_unitario",
+            "description": "",
+            "datatype": "float64"
+          },
+          "price_subtotal": {
+            "name": "Subtotal",
+            "header_name": "subtotal",
+            "description": "",
+            "datatype": "float64"
+          },
+          "currency_id": {
+            "name": "Moneda",
+            "header_name": "moneda",
+            "description": "",
+            "datatype": "string"
+          },
+          "salesman_id": {
+            "name": "Comercial responsable",
+            "header_name": "comercial_responsable",
+            "description": "",
+            "datatype": "string"
+          },
+          "create_date": {
+            "name": "Creado el",
+            "header_name": "create_date",
+            "description": "",
+            "datatype": "datetime64"
+          }
+        },
+        "Values": {}
+      },
+      "Entities": {
+        "Properties": {
+          "id": {
+            "name": "id",
+            "header_name": "id",
+            "description": "",
+            "datatype": "int64"
+          },
+          "display_name": {
+            "name": "Name",
+            "header_name": "nomnre_mostrado",
+            "description": "",
+            "datatype": "string"
+          },
+          "company_type": {
+            "name": "Tipo de compañía",
+            "header_name": "tipo_de_compañia",
+            "description": "",
+            "datatype": "string"
+          },
+          "function": {
+            "name": "Puesto de trabajo",
+            "header_name": "puesto_de_trabajo",
+            "description": "",
+            "datatype": "string"
+          },
+          "x_hubspot_id": {
+            "name": "Hubspot Company ID",
+            "header_name": "hubspot_company_id",
+            "description": "",
+            "datatype": "int64"
+          },
+          "country_id": {
+            "name": "Country",
+            "header_name": "country",
+            "description": "",
+            "datatype": "string"
+          },
+          "is_company": {
+            "name": "Es una compañia",
+            "header_name": "es_una_compañia",
+            "description": "",
+            "datatype": "bool"
+          }
+        },
+        "Values": {
+          "False": ""
+        }
+      },
+      "Subscriptions Lines": {
+        "Properties": {
+          "id": {
+            "name": "id",
+            "header_name": "id",
+            "description": "",
+            "datatype": "int64"
+          },
+          "x_studio_partner": {
+            "name": "Partner",
+            "header_name": "partner",
+            "description": "",
+            "datatype": "string"
+          },
+          "x_studio_referencia_en_lnea_de_producto": {
+            "name": "SUB",
+            "header_name": "sub",
+            "description": "",
+            "datatype": "string"
+          },
+          "x_studio_cliente_en_linea_de_factura": {
+            "name": "Company Name",
+            "header_name": "company_name",
+            "description": "",
+            "datatype": "string"
+          },
+          "x_studio_pas_en_lnea_de_factura": {
+            "name": "Country",
+            "header_name": "country",
+            "description": "",
+            "datatype": "string"
+          },
+          "x_studio_fecha_de_inicio_en_linea_de_factura": {
+            "name": "Fecha de Inicio",
+            "header_name": "fecha_de_inicio",
+            "description": "",
+            "datatype": "datetime64"
+          },
+          "x_studio_fecha_final_en_linea_de_factura": {
+            "name": "Fecha Final",
+            "header_name": "fecha_final",
+            "description": "",
+            "datatype": "datetime64"
+          },
+          "x_studio_recurrencia_en_linea_de_factura": {
+            "name": "Recurrencia",
+            "header_name": "recurrencia",
+            "description": "",
+            "datatype": "string"
+          },
+          "x_studio_comercial_en_linea_de_factura": {
+            "name": "Comercial",
+            "header_name": "comercial",
+            "description": "",
+            "datatype": "string"
+          },
+          "write_uid": {
+            "name": "Responsable del Proyecto",
+            "header_name": "responsable_del_proyecto",
+            "description": "",
+            "datatype": "string"
+          },
+          "x_studio_moneda_para_exportar_1": {
+            "name": "Moneda",
+            "header_name": "moneda",
+            "description": "",
+            "datatype": "string"
+          },
+          "display_name": {
+            "name": "Descripcion",
+            "header_name": "descripcion",
+            "description": "",
+            "datatype": "string"
+          },
+          "name": {
+            "name": "Producto",
+            "header_name": "producto",
+            "description": "",
+            "datatype": "string"
+          },
+          "discount": {
+            "name": "Descuento",
+            "header_name": "descuento",
+            "description": "",
+            "datatype": "float64"
+          },
+          "quantity": {
+            "name": "Cantidad Instalada",
+            "header_name": "cantidad_instalada",
+            "description": "",
+            "datatype": "float64"
+          },
+          "x_studio_q_nmero_decimal": {
+            "name": "Cantidad Vendida",
+            "header_name": "cantidad_vendida",
+            "description": "",
+            "datatype": "float64"
+          },
+          "uom_id": {
+            "name": "Unidad de Medida",
+            "header_name": "unidad_de_medida",
+            "description": "",
+            "datatype": "string"
+          },
+          "price_unit": {
+            "name": "Precio Unitario",
+            "header_name": "price_unit",
+            "description": "",
+            "datatype": "float64"
+          },
+          "price_subtotal": {
+            "name": "Subtotal",
+            "header_name": "subtotal",
+            "description": "",
+            "datatype": "float64"
+          },
+          "x_studio_etapa_en_linea_de_factura": {
+            "name": "Etapa",
+            "header_name": "etapa",
+            "description": "",
+            "datatype": "string"
+          }
+        },
+        "Values": {
+          "False": "",
+          "In Progress": "Suscripcion Activa",
+          "A renovar": "Suscripcion de Baja",
+          "Closed": "Suscripcion Vencida",
+          "Borrador": "Suscripción de Inicializacion",
+          "yearly": "Anual",
+          "monthly": "Mensual",
+          "UF": "clf"
+        }
+      },
+      "General Values": {
+        "False": ""
+      }
+    },
+    "Exchange Rates": {
+      "Date": {
+        "header_name": "date",
+        "datatype": "datetime64"
+      },
+      "AR": {
+        "currencies": [
+          "ARS"
+        ],
+        "header_name": [
+          "ars"
+        ],
+        "datatype": "float64"
+      },
+      "UY": {
+        "currencies": [
+          "UYU"
+        ],
+        "header_name": [
+          "uyu"
+        ],
+        "datatype": "float64"
+      },
+      "PY": {
+        "currencies": [
+          "PYG"
+        ],
+        "header_name": [
+          "pyg"
+        ],
+        "datatype": "float64"
+      },
+      "BO": {
+        "currencies": [
+          "BOB"
+        ],
+        "header_name": [
+          "bob"
+        ],
+        "datatype": "float64"
+      },
+      "CL": {
+        "currencies": [
+          "CLP",
+          "CLF"
+        ],
+        "header_name": [
+          "clp",
+          "clf"
+        ],
+        "datatype": "float64"
+      },
+      "PE": {
+        "currencies": [
+          "PEN"
+        ],
+        "header_name": [
+          "pen"
+        ],
+        "datatype": "float64"
+      },
+      "CO": {
+        "currencies": [
+          "COP"
+        ],
+        "header_name": [
+          "cop"
+        ],
+        "datatype": "float64"
+      },
+      "MX": {
+        "currencies": [
+          "MXN"
+        ],
+        "header_name": [
+          "mxn"
+        ],
+        "datatype": "float64"
+      }
+    },
+    "Freshdesk": {
+      "Companies": {
+        "Properties": {
+          "id": {
+            "name": "id",
+            "header_name": "id",
+            "description": "",
+            "datatype": "int64"
+          },
+          "name": {
+            "name": "name",
+            "header_name": "name",
+            "description": "",
+            "datatype": "string"
+          }
+        },
+        "Values": {
+        }
+      },
+      "Tickets": {
+        "Properties": {
+          "stats_resolved_at": {
+            "name": "Resolved date",
+            "header_name": "resolved_date",
+            "description": "",
+            "datatype": "datetime64"
+          },
+          "is_escalated": {
+            "name": "Tickets resolution breaking SLA",
+            "header_name": "tickets_resolved_breaking_sla",
+            "description": "",
+            "datatype": "bool"
+          },
+          "source": {
+            "name": "source",
+            "header_name": "source",
+            "description": "",
+            "datatype": "string"
+          },
+          "id": {
+            "name": "Ticket ID",
+            "header_name": "ticket_id",
+            "description": "",
+            "datatype": "int64"
+          },
+          "custom_fields_versin": {
+            "name": "Plataforma",
+            "header_name": "plataforma",
+            "description": "",
+            "datatype": "string"
+          },
+          "stats_closed_at": {
+            "name": "Closed date",
+            "header_name": "closed_date",
+            "description": "",
+            "datatype": "datetime64"
+          },
+          "subject": {
+            "name": "Subject",
+            "header_name": "subject",
+            "description": "",
+            "datatype": "string"
+          },
+          "custom_fields_sistema": {
+            "name": "Application",
+            "header_name": "application",
+            "description": "",
+            "datatype": "string"
+          },
+          "created_at": {
+            "name": "Created date",
+            "header_name": "created_at",
+            "description": "",
+            "datatype": "datetime64"
+          },
+          "stats_first_responded_at": {
+            "name": "First response date",
+            "header_name": "first_response_date",
+            "description": "",
+            "datatype": "datetime64"
+          },
+          "type": {
+            "name": "Ticket type",
+            "header_name": "ticket_type",
+            "description": "",
+            "datatype": "string"
+          },
+          "requester_email": {
+            "name": "Requester email",
+            "header_name": "requester_email",
+            "description": "",
+            "datatype": "string"
+          },
+          "company_id": {
+            "name": "Company name",
+            "header_name": "company_name",
+            "description": "",
+            "datatype": "string"
+          },
+          "group_id": {
+            "name": "Group name",
+            "header_name": "group_name",
+            "description": "",
+            "datatype": "string"
+          },
+          "status": {
+            "name": "Status",
+            "header_name": "status",
+            "description": "",
+            "datatype": "string"
+          },
+          "responder_id": {
+            "name": "Agent name",
+            "header_name": "agent_name",
+            "description": "",
+            "datatype": "string"
+          },
+          "fr_escalated": {
+            "name": "Tickets first response breaking SLA",
+            "header_name": "tickets_first_response_breaking_sla",
+            "description": "",
+            "datatype": "bool"
+          },
+          "tags": {
+            "name": "Tag name",
+            "header_name": "tags",
+            "description": "",
+            "datatype": "string"
+          }
+        },
+        "Values": {
+        }
+      },
+      "Surveys": {
+        "Properties": {
+          "id": {
+            "name": "ID",
+            "header_name": "id",
+            "description": "ID of the specific survey response received",
+            "datatype": "int64"
+          },
+          "survey_id": {
+            "name": "Survey ID",
+            "header_name": "survey_id",
+            "description": "ID of the Survey Template Sent",
+            "datatype": "int64"
+          },
+          "user_id": {
+            "name": "User ID",
+            "header_name": "user_id",
+            "description": "",
+            "datatype": "int64"
+          },
+          "agent_id": {
+            "name": "Agent Email",
+            "header_name": "agent_email",
+            "description": "",
+            "datatype": "string"
+          },
+          "feedback": {
+            "name": "Feedback",
+            "header_name": "feedback",
+            "description": "",
+            "datatype": "string"
+          },
+          "created_at": {
+            "name": "Create Date",
+            "header_name": "create_date",
+            "description": "",
+            "datatype": "datetime64"
+          },
+          "ticket_id": {
+            "name": "Ticket ID",
+            "header_name": "ticket_id",
+            "description": "",
+            "datatype": "int64"
+          },
+          "ratings_default_question": {
+            "name": "Ratings",
+            "header_name": "ratings",
+            "description": "",
+            "datatype": "string"
+          }
+          ,
+          "company_id": {
+            "name": "company_id",
+            "header_name": "company_id",
+            "description": "",
+            "datatype": "string"
+          }
+        },
+        "Values": {
+          "103": "Bueno",
+          "100": "Regular",
+          "-103": "Malo",
+          "103.0": "Bueno",
+          "100.0": "Regular",
+          "-103.0": "Malo"
+        }
+      },
+      "General Values": {
+        "9022449128": "abuontempo@debmedia.com",
+        "9025772866": "aiturbe@debmedia.com",
+        "9006742300": "digarcia@debmedia.com",
+        "9033013322": "develop@debmedia.com",
+        "9015180359": "fmarino@debmedia.com",
+        "9032556744": "gflorentin@debmedia.com",
+        "9037728141": "infraestructura.grupos@debmedia.com",
+        "9023931019": "jraices@debmedia.com",
+        "9022144053": "mpumo@debmedia.com",
+        "9006786745": "nademner@debmedia.com",
+        "9000492652.0":"3M",
+        "9000834774.0":"ACA (Cloud)",
+        "9000525912.0":"APM-TERMINALS",
+        "9000642821.0":"Aca Salud",
+        "9000764587.0":"Acceso Pe",
+        "9000683154.0":"Aerolineas Argentinas",
+        "9000523671.0":"Aguas Bonaerenses S.A.",
+        "9000293594.0":"Aguas Cordobesas - SISA",
+        "9000561175.0":"Aguas de Santiago - SISA",
+        "9000599082.0":"Al Mundo",
+        "9000764421.0":"Allianz",
+        "9000642851.0":"Amway",
+        "9000642832.0":"Andina del Sol",
+        "9000642965.0":"Aseguradora Federal Argentina S.A",
+        "9000304598.0":"Asociart",
+        "9000599371.0":"Atrivia",
+        "9000642903.0":"Avon",
+        "9000642823.0":"Axede",
+        "9000776900.0":"Banco Bica",
+        "9000642796.0":"Banco Chubut",
+        "9000554169.0":"Banco Ciudad",
+        "9000627688.0":"Banco Comafi",
+        "9000642872.0":"Banco Industrial",
+        "9000642918.0":"Banco Itau",
+        "9000764590.0":"Banco Macro",
+        "9000642795.0":"Banco Patagonia",
+        "9000788686.0":"Banco Popular",
+        "9000634085.0":"Banco Rioja",
+        "9000642807.0":"Banco Saenz",
+        "9000787013.0":"Banesco",
+        "9000642830.0":"Barrick",
+        "9000764409.0":"Belltech",
+        "9000642966.0":"Biomar",
+        "9000682571.0":"Bolsa de Comercio de Mendoza",
+        "9000764572.0":"Brilliant360",
+        "9000642919.0":"Britanica Salud",
+        "9000405531.0":"CAJA FORENSE",
+        "9000594378.0":"CCU",
+        "9000652952.0":"CMP - Consultorios Médicos Privados",
+        "9000525911.0":"COPELCO",
+        "9000642970.0":"COSAYSA - Aguas del Norte",
+        "9000642908.0":"CPE - Coop Popular de Electricidad Obras y Servicios Públicos de Santa Rosa",
+        "9000676614.0":"Cabin",
+        "9000630544.0":"Cambio Posadas",
+        "9000763962.0":"Camuzzi",
+        "9000542238.0":"Capillitas SA (concesionarios mediterránea)",
+        "9000642799.0":"Cempenta",
+        "9000713986.0":"Central Lab",
+        "9000638416.0":"Centro Card",
+        "9000836012.0":"Centro Empleados de Comercio de Olavarria",
+        "9000676955.0":"Centro Inmobiliario SRL",
+        "9000753887.0":"Centro Medico Vilella",
+        "9000643196.0":"Centro Oftalmológico Dr. Charles S.A",
+        "9000695828.0":"Certant",
+        "9000764426.0":"Certus",
+        "9000764422.0":"Chat Tonic",
+        "9000598782.0":"Cinepolis",
+        "9000642805.0":"Climas Monterrey",
+        "9000642798.0":"Clinica Cemep",
+        "9000733311.0":"Clinica Monte Grande",
+        "9000822722.0":"Clinica Nefro",
+        "9000643193.0":"Clinica Privada San Vicente - CPSV",
+        "9000642884.0":"Clinica de Imagenes - Grupo Familia Schroeder",
+        "9000642951.0":"Clorox - CSAT",
+        "9000764408.0":"Cober",
+        "9000685254.0":"Cocha Viajes",
+        "9000642898.0":"Colegio de Escribanos",
+        "9000714140.0":"Colegio de Escribanos de Rosario",
+        "9000642915.0":"Comercial CMP",
+        "9000764585.0":"Conecta Financiera",
+        "9000626668.0":"Conecta Salud - Coomeva",
+        "9000642840.0":"Consejo Caba",
+        "9000677245.0":"Convergente Latam",
+        "9000810503.0":"CooPACA",
+        "9000764592.0":"Coop Electricidad Bariloche",
+        "9000643199.0":"Coop. de Provisión de Servicios Públicos de Tortuguitas Ltd",
+        "9000642831.0":"Cooperativa Morteros",
+        "9000698178.0":"Cooperativa O. y S. Públicos Rio Tercero - RIOTEL",
+        "9000643201.0":"Cooperativa de Provisión de Servicios Públicos de Tortuguitas",
+        "9000764586.0":"Corralon Prevedello",
+        "9000310196.0":"Corralon San Javier",
+        "9000770677.0":"Craft Argentina",
+        "9000642964.0":"CrediCentro Paraguay",
+        "9000764575.0":"Credicentro Coop",
+        "9000677694.0":"DAC Controls",
+        "9000842136.0":"Datec SA - Bolivia",
+        "9000790607.0":"DOSEP - San Luis",
+        "9000642894.0":"Dacari Salud",
+        "9000642890.0":"Dasu",
+        "9000289839.0":"DebMedia",
+        "9000764852.0":"Dental Brackets",
+        "9000496392.0":"Diagnostico Parque",
+        "9000548712.0":"Diagnostico Tesla",
+        "9000642938.0":"Docuprint",
+        "9000293598.0":"ENSI",
+        "9000541297.0":"Edenor",
+        "9000642957.0":"Edersa",
+        "9000722659.0":"Edes SA",
+        "9000642857.0":"Electro Frig",
+        "9000764581.0":"Enersa",
+        "9000574668.0":"Enfoke",
+        "9000677898.0":"Enlace",
+        "9000642843.0":"Enlace 360",
+        "9000815147.0":"Evertec INC (Partnert) - Bco Popular",
+        "9000642933.0":"Falabella",
+        "9000764423.0":"Familia Bercomat",
+        "9000719355.0":"Farma 24",
+        "9000679287.0":"Farmacia Alfa",
+        "9000642971.0":"Farmacia Aran",
+        "9000715045.0":"Farmacia Central Oeste",
+        "9000642815.0":"Farmacia Cogliati",
+        "9000642839.0":"Farmacia Del Puente",
+        "9000834673.0":"Farmacia Drago",
+        "9000642869.0":"Farmacia JKS",
+        "9000642905.0":"Farmacia Larocca",
+        "9000836147.0":"Farmacia Pacheco",
+        "9000642887.0":"Farmacia Rivadavia",
+        "9000642944.0":"Farmacia Romo",
+        "9000642855.0":"Farmacia TKL",
+        "9000642870.0":"Farmacia Urdangaray",
+        "9000753978.0":"Farmacia Vilella",
+        "9000642945.0":"Farmacia Zurita",
+        "9000796919.0":"Farmacias RP",
+        "9000764418.0":"Farmacias del Pueblo",
+        "9000694609.0":"Farmacity Argentina",
+        "9000293593.0":"Favaloro",
+        "9000643539.0":"Federada Salud",
+        "9000293587.0":"Fenix Control",
+        "9000642948.0":"FiUBA",
+        "9000642829.0":"Fiat Chrysler Automobiles",
+        "9000642920.0":"Fleni",
+        "9000642880.0":"Fravega",
+        "9000642859.0":"FunMed",
+        "9000712984.0":"Fundacion Huesped",
+        "9000642827.0":"GPS Router",
+        "9000642874.0":"Gasnor",
+        "9000642885.0":"Giorgi Ford",
+        "9000643197.0":"Gire",
+        "9000764435.0":"Gobrilliant",
+        "9000764434.0":"Gobrilliant - Partner",
+        "9000642909.0":"Grupo AGG",
+        "9000642956.0":"Grupo Basa",
+        "9000642876.0":"Grupo Craft",
+        "9000293596.0":"Grupo Gestión",
+        "9000764424.0":"Grupo Urda",
+        "9000764156.0":"Hierros Maldonado",
+        "9000695371.0":"Hipodromo de Palermo",
+        "9000764579.0":"HirCasa",
+        "9000633156.0":"Hospital Britanico",
+        "9000642809.0":"Hospital Español Mar del Plata",
+        "9000816501.0":"Hospital Gustavo Fricke (No tiene soporte)",
+        "9000835953.0":"Hospital Italiano de Cordoba",
+        "9000762042.0":"IAC Quilmes",
+        "9000728813.0":"IDAC",
+        "9000642930.0":"IDCLP - Ins. Diag. Cardiovascular La Plata",
+        "9000681520.0":"IGJ - Direccion Provincial de Personas Juridicas",
+        "9000758531.0":"IGJ Provincia de Buenos Aires",
+        "9000525910.0":"INSTITUTO DE MEDICINA NUCLEAR TUCUMAN",
+        "9000642907.0":"IOSFA - Instituto de Obra Social de las Fuerzas Armadas y de Seguridad",
+        "9000646061.0":"IRSA",
+        "9000679286.0":"ITCOM",
+        "9000764594.0":"ITExpress MX",
+        "9000577068.0":"ITT",
+        "9000685255.0":"Instituto Modelo de Cardiología",
+        "9000640252.0":"Investigaciones Médicas S.A. (IMSA)",
+        "9000642854.0":"Iplan",
+        "9000294065.0":"Josimar",
+        "9000764596.0":"Keengo - Partner",
+        "9000683309.0":"La Caja",
+        "9000642967.0":"La Plata Notebook",
+        "9000764573.0":"Laboratorio Bioquímica Médica SRL",
+        "9000753991.0":"Laboratorio Domecq & Lafage",
+        "9000698554.0":"Laboratorio Obarrio - Biolac",
+        "9000642767.0":"Laboratorio San Jose",
+        "9000739690.0":"Laboratorio de Analisis Clinicos Belou",
+        "9000642969.0":"Laser Print",
+        "9000642850.0":"Laser Print (Laser Mendoza)",
+        "9000642824.0":"Latam",
+        "9000629641.0":"Latam travel",
+        "9000685689.0":"Lumtec - Mexico",
+        "9000835713.0":"Mapfre CO",
+        "9000764420.0":"MAPFREPR",
+        "9000841532.0":"Mauna Coop",
+        "9000680592.0":"MCS",
+        "9000493394.0":"MSC",
+        "9000764574.0":"MUNICIPIO DE DURANGO",
+        "9000764593.0":"Medife",
+        "9000642958.0":"Medisur SA",
+        "9000764411.0":"Mediterranea",
+        "9000815383.0":"Mega",
+        "9000765415.0":"MercaSID",
+        "9000492319.0":"MetroGAS",
+        "9000729878.0":"Montepio",
+        "9000764597.0":"Montepio Luz Saviñon",
+        "9000533910.0":"Movistar y Telefónica (global)",
+        "9000777578.0":"Municipalidad San Martin",
+        "9000643195.0":"Municipalidad de Cutral Co",
+        "9000576658.0":"Municipalidad de Hurlingham",
+        "9000681002.0":"Municipalidad de Moreno",
+        "9000764407.0":"Municipalidad de Pilar",
+        "9000642889.0":"Municipalidad de Salta",
+        "9000301147.0":"Municipio de Zárate",
+        "9000642921.0":"Mutual de Central",
+        "9000642813.0":"Nacional Seguro",
+        "9000642881.0":"Naturgy",
+        "9000642817.0":"NewTrans (Infotrans)",
+        "9000787214.0":"Notaria Ossa",
+        "9000642882.0":"Novonordisk",
+        "9000642912.0":"OSUNR - Obra Social Univ. de Rosario",
+        "9000644637.0":"OTS",
+        "9000633295.0":"Obra Social Luis Pasteur",
+        "9000642883.0":"Obras Sanitarias Sociedad del Estado - San Juan",
+        "9000293595.0":"Oca",
+        "9000641018.0":"Ocho18 SRL",
+        "9000580983.0":"Octano",
+        "9000545366.0":"Omint",
+        "9000554772.0":"On Vacation",
+        "9000642838.0":"PSA",
+        "9000778145.0":"Palacio de Hierro",
+        "9000785459.0":"Panalpina",
+        "9000776310.0":"Parfumerie",
+        "9000811601.0":"Paseo Aldrey",
+        "9000642922.0":"Penta",
+        "9000764415.0":"Pinturerias Rex",
+        "9000834149.0":"Poder Judicial de La Rioja",
+        "9000642860.0":"Policia Federal",
+        "9000642853.0":"Pop Corn TV",
+        "9000762784.0":"Prevencion Salud",
+        "9000762001.0":"Punto de Salud",
+        "9000574243.0":"QBE - Zurich",
+        "9000642863.0":"Ramondin",
+        "9000757384.0":"Rapela",
+        "9000642917.0":"Regenersis - Huawei",
+        "9000643198.0":"Registro de la Propiedad del Inmueble - La Pampa",
+        "9000643194.0":"Remax",
+        "9000642803.0":"Renault",
+        "9000723598.0":"Rentas de Catamarca",
+        "9000697249.0":"Roatan Electric Company (RECO)",
+        "9000697071.0":"Romis",
+        "9000576534.0":"Rosario Central",
+        "9000492966.0":"SANATORIO DE LA MERCED",
+        "9000681492.0":"SISA",
+        "9000642833.0":"SSP",
+        "9000642852.0":"Salud Ocular",
+        "9000642810.0":"San Cristobal",
+        "9000642825.0":"Sanatorio Adventista",
+        "9000642925.0":"Sanatorio Americano",
+        "9000685071.0":"Sanatorio Argentino",
+        "9000679288.0":"Sanatorio Bernal",
+        "9000725426.0":"Sanatorio Colegiales",
+        "9000834593.0":"Sanatorio Finochietto",
+        "9000642802.0":"Sanatorio San Jose",
+        "9000553015.0":"Sancor Salud",
+        "9000642766.0":"SatCRC",
+        "9000642797.0":"SatSaid",
+        "9000642820.0":"Segmento Digital",
+        "9000764580.0":"Servitrans CO",
+        "9000526993.0":"Shop Gallery (DUTY PAID)",
+        "9000642804.0":"Smiling Cosmos",
+        "9000642961.0":"Social Luro - Farmacia Bauza",
+        "9000642879.0":"Sociedad Española",
+        "9000642801.0":"Sommier Center",
+        "9000642826.0":"Sorensen",
+        "9000718895.0":"Soy tu Farmacia",
+        "9000491751.0":"Supervielle",
+        "9000642931.0":"Sushi Club",
+        "9000526539.0":"TOYOTA YACOPINI",
+        "9000542239.0":"TTS viajes",
+        "9000642913.0":"TV Fuego",
+        "9000694608.0":"TV SA - Express",
+        "9000642834.0":"Taxi Premium",
+        "9000642765.0":"Telpin",
+        "9000642835.0":"Tic Services Chile",
+        "9000642819.0":"Tierra del Fuego",
+        "9000679291.0":"TropicalTours",
+        "9000833831.0":"Ueno",
+        "9000642808.0":"Universidad Siglo 21",
+        "9000642910.0":"Universidad UADE",
+        "9000642968.0":"VFS DEL PLATA SERVICES S.A.",
+        "9000833322.0":"VICTOR GULLO",
+        "9000492650.0":"VIEDMA",
+        "9000643202.0":"Vacunar",
+        "9000642836.0":"Valtech",
+        "9000776380.0":"Veladero",
+        "9000642800.0":"Vicente Lopez",
+        "9000764413.0":"Virtualmedianet",
+        "9000764595.0":"Vitel cl",
+        "9000697155.0":"WOM S.A",
+        "9000642867.0":"Western Union",
+        "9000642814.0":"Zaff",
+        "9000760314.0":"Zona Mayorista",
+        "9000646173.0":"cecomsa",
+        "9000587560.0":"claro argentina",
+        "9000648683.0":"ecssa",
+        "9000731484.0":"lab polanco",
+        "9000755388.0":"mercadotecnia",
+        "9000753061.0":"onthespot",
+        "9000683632.0":"recoroatan",
+        "9000676515.0":"renext",
+        "9000683139.0":"sidlatam",
+        "9000580806.0":"somosembajada",
+        "9000593238.0":"teranvo",
+        "9000665777.0":"thenet",
+        "9000647495.0":"wom",
+        "9000638699.0":"zoho costa rica"
+      }
+    },
+    "Colppy": {
+      "Comprobantes de Venta": {
+        "Properties": {
+          "fechaFactura": {
+            "name": "Fecha Factura",
+            "header_name": "fecha_factura",
+            "description": "",
+            "datatype": "datetime64"
+          },
+          "idTipoComprobante": {
+            "name": "Tipo de Comprobante",
+            "header_name": "tipo_de_comprobante",
+            "description": "",
+            "datatype": "string"
+          },
+          "nroFactura": {
+            "name": "Numero de Comprobante",
+            "header_name": "numero_de_comprobante",
+            "description": "",
+            "datatype": "string"
+          },
+          "idMoneda": {
+            "name": "Moneda",
+            "header_name": "moneda",
+            "description": "",
+            "datatype": "int64"
+          },
+          "netoGravado": {
+            "name": "Neto Gravado",
+            "header_name": "neto_gravado",
+            "description": "",
+            "datatype": "float64"
+          },
+          "netoNoGravado": {
+            "name": "Monto neto",
+            "header_name": "monto_neto",
+            "description": "",
+            "datatype": "float64"
+          },
+          "totalIVA": {
+            "name": "Iva ",
+            "header_name": "iva",
+            "description": "",
+            "datatype": "float64"
+          },
+          "totalFactura": {
+            "name": "Monto Total",
+            "header_name": "monto_total",
+            "description": "",
+            "datatype": "float64"
+          },
+          "descripcion": {
+            "name": "Descripcion",
+            "header_name": "descripcion",
+            "description": "",
+            "datatype": "string"
+          },
+          "RazonSocial": {
+            "name": "Razon Social",
+            "header_name": "razon_social",
+            "description": "",
+            "datatype": "string"
+          }
+        },
+        "Values": {}
+      },
+      "General Values": {
+        "False": ""
+      }
+    }
+  }
+}
