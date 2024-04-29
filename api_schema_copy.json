@@ -470,6 +470,13 @@
             "description": "",
             "datatype": "string"
           },
+          "createdate": {
+            "name": "Create Date",
+            "header_name": "createdate",
+            "date": "True",
+            "description": "",
+            "datatype": "datetime64"
+          },
           "closedate": {
             "name": "Close Date",
             "header_name": "close_date",
@@ -477,9 +484,21 @@
             "description": "",
             "datatype": "datetime64"
           },
-          "canal_de_representaci_n": {
-            "name": "Canal de Representacion",
-            "header_name": "canal_de_representacion",
+          "days_to_close": {
+            "name": "Days to close",
+            "header_name": "days_to_close",
+            "description": "",
+            "datatype": "int64"
+          },
+          "closed_won_reason": {
+            "name": "Closed won reason",
+            "header_name": "closed_won_reason",
+            "description": "",
+            "datatype": "string"
+          },
+          "closed_lost_reason": {
+            "name": "Closed lost reason",
+            "header_name": "closed_lost_reason",
             "description": "",
             "datatype": "string"
           },
@@ -487,33 +506,63 @@
             "name": "Amount",
             "header_name": "amount",
             "description": "",
-            "datatype": "int64"
+            "datatype": "float64"
+          },
+          "deal_currency_code": {
+            "name": "Currency",
+            "header_name": "deal_currency_code",
+            "description": "",
+            "datatype": "string"
+          },
+          "amount_in_home_currency": {
+            "name": "Amount in company currency",
+            "header_name": "amount_in_home_currency",
+            "description": "",
+            "datatype": "float64"
+          },
+          "hs_projected_amount": {
+            "name": "Weighted amount",
+            "header_name": "Weighted_amount",
+            "description": "",
+            "datatype": "float64"
+          },
+          "hs_projected_amount_in_home_currency": {
+            "name": "Weighted amount in company currency",
+            "header_name": "Weighted_amount_in_home_currency",
+            "description": "",
+            "datatype": "float64"
+          },
+          "canal_de_representaci_n": {
+            "name": "Canal de Representacion",
+            "header_name": "canal_de_representacion",
+            "description": "",
+            "datatype": "string"
+          },
+          "canal_de_entrada": {
+            "name": "Canal_de_entrada",
+            "header_name": "canal_de_entrada",
+            "description": "",
+            "datatype": "string"
           },
           "dealstage": {
             "name": "Deal Stage",
-            "header_name": "deal_stage",
+            "header_name": "dealstage",
             "description": "",
             "datatype": "string"
           },
           "hubspot_owner_id": {
             "name": "Deal owner",
-            "header_name": "deal_owner",
+            "header_name": "hubspot_owner_id",
             "description": "",
             "datatype": "string"
           },
           "pa_s": {
-            "name": "Country Region",
-            "header_name": "country_region",
+            "name": "Pais",
+            "header_name": "pais",
             "description": "",
             "datatype": "string"
           },
-          "createdate": {
-            "name": "Create Date",
-            "header_name": "create_date",
-            "date": "True",
-            "description": "",
-            "datatype": "datetime64"
-          },
+          
           "associated_company_proxy": {
             "name": "Associated Company",
             "header_name": "associated_company",
@@ -550,37 +599,39 @@
             "description": "",
             "datatype": "datetime64"
           },
-          "asignacion_a_preventa": {
+          "presales": {
             "name": "Asignación a Preventa",
-            "header_name": "asignacion_a_preventa",
+            "header_name": "presales",
+            "description": "",
+            "datatype": "bool"
+          },
+          "tipo_de_venta": {
+            "name": "Tipo de venta",
+            "header_name": "tipo_de_venta",
             "description": "",
             "datatype": "string"
+          },
+          "hs_mrr": {
+            "name": "MRR",
+            "header_name": "deal_mrr",
+            "description": "",
+            "datatype": "float64"
+          },
+          "hs_arr": {
+            "name": "ARR",
+            "header_name": "deal_arr",
+            "description": "",
+            "datatype": "float64"
+          },
+          "hs_exchange_rate": {
+            "name": "Exchange_rate",
+            "header_name": "hs_exchange_rate",
+            "description": "",
+            "datatype": "float64"
           }
         },
         "Values": {
-          "7742d15e-56ae-4415-9c86-567ad766837a": "Ventas",
-          "820bd061-2228-4455-a379-4bf409d4554a": "Canales",
-          "5101741": "Identificacion",
-          "d85ad2ee-ad84-48f3-a4e6-3c2752733963": "Primer Contacto 10%",
-          "750846": "Demo Realizada 15%",
-          "eb078c2a-ae3e-411a-9ce6-b8e5ca06dcd5": "Presupuesto Enviado 20%",
-          "d5608044-cac5-4e0c-9838-755be8adf652": "Piloto en Funcionamiento 50%",
-          "afcc2b30-8757-4d7e-923d-053d7db0205c": "OC en Proceso 90%",
-          "3d0d99a8-5791-421b-a1e5-6234c0844b65": "Deal Won",
-          "03a76306-0231-417d-9223-5bd0b12f63d5": "Deal Lost",
-          "7356165": "Oportunidad de Baja",
-          "1005088": "Potencial Reseller",
-          "1209140": "Pedido de datos para NDA",
-          "2ad1f599-a06f-4456-bea4-e28739d0c6fb": "Hand-off a Preventa",
-          "17487102": "Onboarding",
-          "1147473": "Primera Capacitación Comercial",
-          "1147474": "Segunda Capacitación Comercial",
-          "2014582": "Exposición Comercial y Resolución de examen",
-          "17487103": "Hand-off a Operaciones",
-          "32753101-a1a6-4c44-a789-82576c7b1505": "Canal Capturado / Contrato Firmado",
-          "2491428": "Canales en Pausa",
-          "ff4aae15-0c00-4fa8-a677-39b35df7924f": "No hay int64erés/No califica",
-          "Ourbound": "Outbound"
+          
         }
       },
       "Quotes": {
@@ -1240,6 +1291,121 @@
           "UF": "clf"
         }
       },
+      "Account moves": {
+        "Properties": {
+          "id": {
+            "name": "id",
+            "header_name": "account_move_id",
+            "description": "",
+            "datatype": "int64"
+          },
+          "name": {
+            "name": "Número de factura",
+            "header_name": "name",
+            "description": "",
+            "datatype": "string"
+          },
+          "move_type": {
+            "name": "Tipo de movimiento",
+            "header_name": "move_type",
+            "description": "",
+            "datatype": "string"
+          },
+          "invoice_partner_display_name": {
+            "name": "Cliente",
+            "header_name": "invoice_partner_display_name",
+            "description": "",
+            "datatype": "string"
+          },
+          "invoice_date": {
+            "name": "Fecha de factura",
+            "header_name": "invoice_date",
+            "description": "",
+            "datatype": "string"
+          }, 
+          "invoice_date_due": {
+            "name": "Fecha de vencimiento",
+            "header_name": "invoice_date_due",
+            "description": "",
+            "datatype": "string"
+          },
+          "company_id": {
+            "name": "Compañía",
+            "header_name": "company_id",
+            "description": "",
+            "datatype": "string"
+          },
+          "payment_state": {
+            "name": "Estado de pago",
+            "header_name": "payment_state",
+            "description": "",
+            "datatype": "string"
+          },
+          "state": {
+            "name": "Estado del comprobante",
+            "header_name": "state",
+            "description": "",
+            "datatype": "string"
+          },
+          "amount_total": {
+            "name": "Total",
+            "header_name": "amount_total",
+            "description": "",
+            "datatype": "float64"
+          },
+          "amount_total_signed": {
+            "name": "Total con signo",
+            "header_name": "amount_total_signed",
+            "description": "",
+            "datatype": "float64"
+          },
+          "amount_total_in_currency_signed": {
+            "name": "Total en divisa con signo",
+            "header_name": "amount_total_in_currency_signed",
+            "description": "",
+            "datatype": "float64"
+          },
+          "l10n_mx_edi_cfdi_amount": {
+            "name": "Importe total (mx edi)",
+            "header_name": "l10n_mx_edi_cfdi_amount",
+            "description": "",
+            "datatype": "float64"
+          },
+          "amount_paid": {
+            "name": "Importe pagado",
+            "header_name": "amount_paid",
+            "description": "",
+            "datatype": "float64"
+          },
+          "amount_residual_signed": {
+            "name": "Importe adeudado con signo",
+            "header_name": "amount_residual_signed  ",
+            "description": "",
+            "datatype": "float64"
+          },
+          "amount_untaxed_signed": {
+            "name": "Importe sin impuestos con signo",
+            "header_name": "amount_untaxed_signed",
+            "description": "",
+            "datatype": "float64"
+          },
+          "amount_tax_signed": {
+            "name": "Impuestos con signo",
+            "header_name": "amount_tax_signed",
+            "description": "",
+            "datatype": "float64"
+          },
+          "currency_id": {
+            "name": "Moneda",
+            "header_name": "currency_id",
+            "description": "",
+            "datatype": "string"
+          }
+        },
+        "Values": {
+          
+        }
+      },
       "General Values": {
         "False": ""
       }
@@ -1609,8 +1775,9 @@
         "9000642840.0":"Consejo Caba",
         "9000677245.0":"Convergente Latam",
         "9000810503.0":"CooPACA",
-        "9000764592.0":"Coop Electricidad Bariloche",
         "9000643199.0":"Coop. de Provisión de Servicios Públicos de Tortuguitas Ltd",
+        "9000764592.0":"Coop Electricidad Bariloche",
+        "9000844195.0":"Cooperativa Financiera Cihualpilli",
         "9000642831.0":"Cooperativa Morteros",
         "9000698178.0":"Cooperativa O. y S. Públicos Rio Tercero - RIOTEL",
         "9000643201.0":"Cooperativa de Provisión de Servicios Públicos de Tortuguitas",
